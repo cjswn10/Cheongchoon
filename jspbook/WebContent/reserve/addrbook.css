@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+table {
+	border-collapse: collapse;
+	text-align: center;
+	align: center;
+	font-family: 맑은 고딕;
+}
+ 
+td,th {
+	font-size: 10pt;
+	border: 1px solid yellow;
+	height: 30px;
+	padding: 5px;
+}
+
+th {
+	background-color: #8C8C8C;
+	color: #ffffff;
+}
+
+tr td {
+	color: #000000;
+	background-color: #ffffff;
+}
+
+input {
+	height: 25px;
+	width:200px;
+}
+
+input[type="submit"],[type="reset"],[type="button"] {
+	height: 25px;
+	width:80px;
+}
